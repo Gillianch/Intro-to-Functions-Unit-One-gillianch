@@ -58,4 +58,4 @@
 # equal(200)
     
     
-turtle.done()
+# turtle.done()

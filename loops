@@ -20,21 +20,22 @@ t.shape('turtle')
 #     t.forward(100)
 #     t.left(85)
 
-sidelength = 100
-rotate = 90
+# sidelength = 100
+# rotate = 90
+# def square(x,y):
+#         t.forward(x)
+#         t.left(y)
+# square(100,90)
 
-def square(x,y): 
-    for i in range(4):
-        t.forward(x)
-        t.left(y)
-square(100,90)
+def doubleSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        doubleSquares(length, 90)
+        length = length * 2
+doubleSquares(5)
 
-# def doubleSquares(iRange):
-#     length = 25
-#     for i in range(iRange):
-#         square(length, 90)
-#         length = length * 2
-# doubleSquares(5)
+
+turtle.done()
 
 # def addSquares(iRange):
 #     length = 25
@@ -43,7 +44,7 @@ square(100,90)
 #         length += 25
 # addSquares(5)
 
-turtle.done()
+
 
 
 
