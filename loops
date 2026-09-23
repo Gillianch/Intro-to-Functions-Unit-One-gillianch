@@ -1,0 +1,92 @@
+import turtle
+from turtle import *
+t = Turtle()
+
+t.shape('turtle')
+
+# for i in range (4):
+#     print (i)
+#     t.forward(100)
+#     t.left(90)
+
+# for i in range (60):
+#     print (i)
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(100)
+#     t.left(90)
+#     t.forward(100)
+#     t.left(85)
+
+sidelength = 100
+rotate = 90
+
+def square(x,y): 
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+square(100,90)
+
+# def doubleSquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length = length * 2
+# doubleSquares(5)
+
+# def addSquares(iRange):
+#     length = 25
+#     for i in range(iRange):
+#         square(length, 90)
+#         length += 25
+# addSquares(5)
+
+turtle.done()
+
+
+
+
+# #string for characters
+# name= "Inaya"
+# print(name.upper())
+# #input asks the user a question and records the answer
+# #what we write in the input argument is what the user sees
+# #input ALWAYS outputs a string
+# bill=inputg"How much was the bill')
+# print(bill)
+
+# if bill == 10:
+#     print("Match")
+# else:
+#     print("no match")
+# #integers for whole number
+# amt=100
+# #float uses decimal
+# amt_two=99.99
+
+# #boolean
+# x=True
+# y=False
+
+# bill = input("how much was the bill?")
+# print(int(bill)+20)
+
+#list
+# students + ["Ellie", "Preston", "Ben", "Elyse"]
+# students.append ("Sophia")
+# print(students[-1])
+
+# for student in students:
+#     if student == "Ben":
+#         print(f'we found{student}')
+
+# #float
+# bill=56.8
+
+# #string
+# y = input("who am i")
+
+
+#you cant combine 2 different data types
