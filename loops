@@ -46,17 +46,17 @@ t.shape('turtle')
 def square(x,y):
     for i in range(4):
         t.forward(x)
-        t.left(y)
+        t.right(y)
 square(5,90)
 
 def incSquares(iRange):
     length = 5
     for i in range(iRange):
-        square(length,90)
-        length = length + 5
-        t.left = 5
+       square(length,90)
+       length = length + 5
+       t.right(5)
 incSquares(60)
-    
+
 turtle.done()
 
 
