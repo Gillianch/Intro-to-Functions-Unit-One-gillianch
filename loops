@@ -54,6 +54,7 @@ def incSquares(iRange):
     for i in range(iRange):
         square(length,90)
         length = length + 5
+        t.left = 5
 incSquares(60)
     
 turtle.done()
