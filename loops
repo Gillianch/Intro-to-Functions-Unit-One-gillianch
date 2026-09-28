@@ -1,6 +1,6 @@
 import turtle
 from turtle import *
-t = Turtle()
+t = turtle()
 
 t.shape('turtle')
 
