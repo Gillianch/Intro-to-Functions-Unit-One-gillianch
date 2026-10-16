@@ -58,21 +58,21 @@ t.shape('turtle')
 # incSquares(60)
 
 
-def star(x,y):
-    for i in range (5):
-        t.forward(x)
-        t.left(y)
-star(5,144)
+# def star(x,y):
+#     for i in range (5):
+#         t.forward(x)
+#         t.left(y)
+# star(5,144)
 
-def incStars(iRange):
-    length = 5
-    for i in range(iRange):
-        star(length,144)
-        length = length + 5
-        t.right(5)
-incStars(60)
+# def incStars(iRange):
+#     length = 5
+#     for i in range(iRange):
+#         star(length,144)
+#         length = length + 5
+#         t.right(5)
+# incStars(60)
 
-turtle.done()
+# turtle.done()
 
 
 
